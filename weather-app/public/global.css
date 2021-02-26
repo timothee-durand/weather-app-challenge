@@ -1,0 +1,63 @@
+:root, body, html {
+	margin: 0;
+	padding: 0;
+}
+html {
+	font-size: 62.5%;
+}
+
+*{
+	box-sizing: border-box;
+}
+
+button {
+	border:none;
+	outline: none;
+	padding: 15px 20px;
+}
+
+.flex {
+	display: flex;
+}
+
+.wrap {
+	flex-wrap: wrap;
+}
+
+.flex-row {
+	flex-direction: row
+}
+
+.space-between {
+	justify-content: space-between;
+}
+
+.flex-column {
+	flex-direction: column;
+}
+
+.items-center {
+	align-items: center;
+}
+
+.w-25 {
+	width: 25%;
+}
+
+
+.w-50 {
+	width: 50%;
+}
+
+.w-75 {
+	width: 75%;
+}
+
+.w-full {
+	width: 100%;
+}
+
+.color-dark {
+	color: var(--darkgrey);
+}
+
